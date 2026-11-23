@@ -32,7 +32,7 @@ pipeline {
         stage('Build React Application') {
             steps {
                 echo 'Building React application'
-                sh 'npm run build'
+                sh 'npm run wrong-command'
             }
         }
 
